@@ -4,12 +4,12 @@ from nltk.stem import PorterStemmer
 
 
 
-st.logo(image='Media\\logo.png', icon_image='Media\\icon.png')
+st.logo(image='Media/logo.png', icon_image='Media/icon.png')
 
 
 st.set_page_config(
     page_title='Predictor ',
-    page_icon="Media\\page_icon.png",
+    page_icon="Media/page_icon.png",
     layout='wide'
 )
 
@@ -41,7 +41,7 @@ def load_model_and_predict(new_tweets):
     return results
 
 
-st.image("Media\\predictor banner.png")
+st.image("Media/predictor banner.png")
 new_tweet_input = st.text_area("Enter new tweets for classification (separate with a newline):")
 if st.button('Predict'):
     new_tweets = new_tweet_input.split('\n')

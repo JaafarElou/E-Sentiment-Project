@@ -1,14 +1,14 @@
 import streamlit as st
 
 
-st.logo(image='Media\\logo.png', icon_image='Media\\icon.png')
+st.logo(image='Media/logo.png', icon_image='Media/icon.png')
 
 st.set_page_config(
     page_title='Home',
-    page_icon="Media\\page_icon.png"
+    page_icon="Media/page_icon.png"
 )
 
-st.image("Media\\home banner.png")
+st.image("Media/home banner.png")
 
 st.header("Project Description")
 st.write("""
@@ -18,7 +18,7 @@ Starting from cleaning your dataset, Labeling it based on the polarity of the se
 
 st.header("Example Results")
 
-st.image("Media\\examples.png")
+st.image("Media/examples.png")
 
 
 st.header("What Users Can Expect")

@@ -13,12 +13,12 @@ from textblob import TextBlob
 
 
 
-st.logo(image='Media\\logo.png', icon_image='Media\\icon.png')
+st.logo(image='Media/logo.png', icon_image='Media/icon.png')
 
 
 st.set_page_config(
     page_title='Analyser ',
-    page_icon="Media\\page_icon.png",
+    page_icon="Media/page_icon.png",
     layout='wide'
 )
 
@@ -100,7 +100,7 @@ def plot_top_hashtags(hashtags, title):
     return buf
 
 
-st.image('Media\\analyser banner.png')
+st.image('Media/analyser banner.png')
 
 uploaded_file = st.file_uploader("Choose a CSV or Excel file", type=["csv", "xls", "xlsx"])
 
